@@ -1,0 +1,29 @@
+
+			.main-container {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100vh;
+			}
+			/* Light mode */
+			body {
+				background-color: white;
+				color: black;
+			}
+
+			/* Dark mode */
+			.dark-mode {
+				background-color: black;
+				/* textco: white; */
+			}
+			.dark {
+				background: #cccc;
+			}
+			#dark-mode-toggle {
+				position: absolute;
+				top: 0;
+				right: 0;
+				margin: 10px;
+                background: white;
+			}
+		
